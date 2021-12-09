@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: url("file:///C:/Users/Antonique/Pictures/what-to-write-in-a-love-letter.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+ }
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: rgb(151, 85, 96);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #e0b9bf;
+  }
+  
+  /* Current/active navbar link */
+  /* .active {
+    background-color: #04AA6D;
+  }
+   */
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+
+.intro {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.greeting {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(240, 131, 149);
+    font-family: 'Tangerine', cursive; 
+}
+
+span {
+    font-size: 5rem;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    color: rgb(48, 7, 14);
+}
