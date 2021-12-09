@@ -63,6 +63,7 @@ span {
     bottom:0;
     left:0;
     width:100%;
-    height: 90px;
-    color: rgb(48, 7, 14);
+    height: 45px;
+    background-color: #e0b9bf;
+    text-align: center;
 }
